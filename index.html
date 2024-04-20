@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hockey  </title>
        <!-- talwinds and daisy ui link -->
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
@@ -24,10 +24,69 @@
 </head>
 <body class="manrope">
     <header class="container mx-auto">
-        
+        <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full ">
+           <img src="./Image/1.png" class="w-full h-[60vh] rounded-md"  />
+            <div class="absolute flex justify-center lg:justify-start  gap-4 lg:transform -translate-y-3/4  transform-translate-y-1/2  left-5 right-5 lg:left-5 lg:right-5 top-1/2 lg:top-3/4">
+            <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a> 
+            <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
+            </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+            <img src="./Image/2.png" class="w-full h-[60vh]" />
+            <div class="absolute flex justify-center lg:justify-start  gap-4 lg:transform -translate-y-3/4  transform-translate-y-1/2  left-5 right-5 lg:left-5 lg:right-5 top-1/2 lg:top-3/4">
+            <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a> 
+            <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
+            </div>
+        </div> 
+     
+        </div>
     </header>
-    <main>
-
+    <!-- main sections  -->
+    <main class="container mx-auto">
+        <!-- Professional section start -->
+        <section class="container mx-auto my-24">
+            <div class="mb-8">
+                <h2 class="text-3xl font-extrabold text-center mb-5">Professional Hockeys Club</h2>
+                <p class="text-sm w-1/2 text-center mx-auto">From humble beginnings on local rinks to dominating national leagues, the Lions have consistently showcased their prowess, earning the admiration of fans worldwide. </p>
+            </div>
+            <!--  container grid tampltes -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+                <!-- first progres cardd -->
+               <div class="text-center py-10 px-8 border-solid  shadow-xl">
+                     <div class="radial-progress mb-4 text-red-600" style="--value:87;" role="progressbar"><span class='text-black font-extrabold text-xl'> 87%</span></div>
+                  <div class="text-center">
+                    <h2 class="text-xl font-bold mb-2">Prayer Facility</h2>
+                    <p class="">From humble beginnings <br> on local rinks</p>
+                  </div>
+               </div>
+                <!-- second progres cardd -->
+               <div class="text-center py-10 px-8 border-solid  shadow-xl ">
+                     <div class="radial-progress mb-4 text-green-600" style="--value:95;" role="progressbar"><span class='text-black font-extrabold text-xl'> 95%</span></div>
+                  <div class="text-center">
+                    <h2 class="text-xl font-bold mb-2">Prayer Facility</h2>
+                    <p class="">From humble beginnings <br> on local rinks</p>
+                  </div>
+               </div>
+                <!-- thred progres cardd -->
+               <div class="text-center  py-10 px-8 border-solid  shadow-xl ">
+                     <div class="radial-progress mb-4 text-yellow-400" style="--value:90;" role="progressbar"><span class='text-black font-extrabold text-xl'> 90%</span></div>
+                  <div class="text-center">
+                    <h2 class="text-xl font-bold mb-2">Prayer Facility</h2>
+                    <p class="">From humble beginnings <br> on local rinks</p>
+                  </div>
+               </div>
+                <!-- fourth progres cardd -->
+               <div class="text-center py-10 px-8 border-solid  shadow-xl">
+                     <div class="radial-progress  mb-4 text-blue-600" style="--value:80;" role="progressbar"><span class='text-black font-extrabold text-xl'> 80%</span></div>
+                  <div class="text-center">
+                    <h2 class="text-xl font-bold mb-2">Prayer Facility</h2>
+                    <p >From humble beginnings <br> on local rinks</p>
+                  </div>
+               </div>
+                
+            </div>
+        </section>
     </main>
     <footer>
 
